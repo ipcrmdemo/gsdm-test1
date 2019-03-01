@@ -7,7 +7,8 @@ const nodemailer = require('nodemailer');
  */
 exports.getContact = (req, res) => {
   const unknownUser = !(req.user);
-
+  const newThing = 'value that is not useful';
+  logger.console(newThing);
   res.render('contact', {
     title: 'Contact',
     unknownUser,
