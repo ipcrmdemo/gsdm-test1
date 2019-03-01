@@ -1,6 +1,7 @@
 const nodemailer = require('nodemailer');
 
 /**
+ * Stuff
  * GET /contact
  * Contact form page.
  */
